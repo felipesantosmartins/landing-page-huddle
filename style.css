@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 200px) and (max-width: 800px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #684BB1;
+        background-image: url(images/bg-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .logo {
+        width: 40%;
+        margin-top: 10%;
+        margin-left: 8%;
+
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15%;
+    }
+
+    .mockup__image {
+        width: 85%;
+        display: flex;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .title {
+        width: 80%;
+        color: #ffffff;
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 50px 0 0 0;
+    }
+
+    .text {
+
+        width: 80%;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin: 10% 0 10% 0;
+    }
+
+    .register {
+
+        width: 200px;
+        height: 40px;
+        border: none;
+        background-color: #ffffff;
+        border-radius: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: #684BB1;
+        font-size: 12px;
+    }
+
+    .register:hover {
+        background-color: #E880E8;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+        color: #ffffff;
+    }
+
+    footer {
+        width: 100vw;
+        margin: 10% 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer>img {
+        margin: 0 5% 0 0
+    }
+
+}
+
+/* começo estilização desktop */
+@media (min-width: 800px) and (max-width: 1500px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #684BB1;
+        background-image: url(images/bg-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .logo {
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 5%;
+
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .mockup__image {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        margin-left: 80PX;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0 0 0 59px ;
+
+    }
+
+    .title {
+        width: 80%;
+        color: #ffffff;
+        font-size: 60px;
+        font-family: 'Poppins', sans-serif;
+        text-align: start;
+    }
+
+    .text {
+
+        width: 80%;
+        color: #ffffff;
+        font-size: 25px;
+        text-align: start;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 0 4% 0;
+    }
+
+    .register {
+
+        width: 200px;
+        height: 50px;
+        border: none;
+        background-color: #ffffff;
+        border-radius: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: #684BB1;
+        font-size: 12px;
+    }
+
+    .register:hover {
+        background-color: #E880E8;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+        color: #ffffff;
+    }
+
+    footer {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0 0 0;
+        padding-left: 50%;
+    }
+
+    footer>img {
+        margin: 0 1% 0 0 ;
+    }
+
+}
